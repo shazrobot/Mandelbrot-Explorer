@@ -61,6 +61,9 @@ public class Explorer : MonoBehaviour
         if (Input.GetKey(KeyCode.S))
             position -= direction;
 
+        if (Input.GetKey(KeyCode.Escape))
+            Application.Quit();
+
         
     }
 
